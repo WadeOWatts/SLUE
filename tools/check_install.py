@@ -89,7 +89,7 @@ def main():
 
     try:
         import chainer
-
+        
         print(f"[x] chainer={chainer.__version__}")
         if parse(chainer.__version__) != parse("6.0.0"):
             print(
