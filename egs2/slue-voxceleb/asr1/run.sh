@@ -9,7 +9,7 @@ train_set="train"
 valid_set="devel"
 test_sets="test devel"
 
-asr_config=conf/tuning/train_asr_conformer_s3prl.yaml
+asr_config=/usr1/chunwei/SLUE/egs2/slue-voxceleb/asr1/conf/train_asr.yaml
 
 ./asr.sh \
     --lang en \
